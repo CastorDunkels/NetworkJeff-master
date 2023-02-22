@@ -267,10 +267,12 @@ MonoBehaviour:
   networkAddress: localhost
   maxConnections: 100
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 0}
+  playerPrefab: {fileID: 1258857957078338, guid: 02de072c2b0ef76488e0fd8adb10d7d9,
+    type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
-  spawnPrefabs: []
+  spawnPrefabs:
+  - {fileID: 1606136023708778, guid: 4949b48c19db7814480ef681cbfdaa23, type: 3}
   timeInterpolationGui: 0
 --- !u!4 &523019058
 Transform:
@@ -284,99 +286,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &988503921 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1258857957078338, guid: 02de072c2b0ef76488e0fd8adb10d7d9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1594719090}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &988503922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 988503921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff3ba0becae47b8b9381191598957c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncDirection: 1
-  syncMode: 0
-  syncInterval: 0
-  target: {fileID: 988503926}
-  clientAuthority: 0
-  syncPosition: 1
-  syncRotation: 1
-  syncScale: 0
-  showGizmos: 0
-  showOverlay: 0
-  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
-  onlySyncOnChange: 1
-  onlySyncOnChangeCorrectionMultiplier: 2
-  rotationSensitivity: 0.01
-  compressRotation: 0
-  positionPrecision: 0.01
-  scalePrecision: 0.0001
---- !u!4 &988503926 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1594719090}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1594719090
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1258857957078338, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_Name
-      value: "JeffBs\xE5s"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4989476298835862, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 62239785958145866, guid: 02de072c2b0ef76488e0fd8adb10d7d9,
-        type: 3}
-      propertyPath: sceneId
-      value: 1817943478
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 02de072c2b0ef76488e0fd8adb10d7d9, type: 3}
 --- !u!1 &1792416615
 GameObject:
   m_ObjectHideFlags: 0
